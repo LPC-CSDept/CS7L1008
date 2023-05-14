@@ -15,8 +15,8 @@ def test_main_1():
     sc1 = [100, 100, 100]
     sc2 = [90, 90, 90]
 
-    s1 = main.Student('James', sc1)
-    s2 = main.Student('Mary', sc2)
+    s1 = main.Student('James', '123 Ave', '555-555-1234', 1001, sc1)
+    s2 = main.Student('Mary', '456 Ave', '555-555-9999', 1002, sc2)
     print(s1)
     print(s2)
     print(f'Total number of students: {main.Student.numofStudent}')
